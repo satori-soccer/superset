@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   superset:
   - apiVersion: v2
-    appVersion: "3.0"
-    created: "2023-09-27T20:24:56.437195861Z"
+    appVersion: 3.0.0
+    created: "2023-10-09T17:06:00.652469555Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -15,7 +15,7 @@ entries:
       version: 17.9.4
     description: Apache Superset is a modern, enterprise-ready business intelligence
       web application
-    digest: 3e31bff9adf87105808606ac5ef23e4ef8ed23a607cdfcf3d8dab5b8d27acf6c
+    digest: 68270c5a803a17638c1e710a714b7c748d146419e2ae39725508ca0f4e2e86b9
     home: https://superset.apache.org/
     icon: https://artifacthub.io/image/68c1d717-0e97-491f-b046-754e46f46922@2x
     keywords:
@@ -29,6 +29,6 @@ entries:
     sources:
     - https://github.com/apache/superset
     urls:
-    - https://github.com/satori-soccer/superset/releases/download/superset-helm-chart-0.10.8/superset-0.10.8.tgz
-    version: 0.10.8
-generated: "2023-09-27T20:24:56.437207861Z"
+    - https://github.com/satori-soccer/superset/releases/download/superset-helm-chart-0.10.9/superset-0.10.9.tgz
+    version: 0.10.9
+generated: "2023-10-09T17:06:00.652478855Z"
